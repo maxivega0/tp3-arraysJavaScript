@@ -6,6 +6,6 @@
 
 const numero = parseInt(prompt("Ingrese un numero"));
 function paridad (numero){
-    (numero % 2 === 0) ? document.write(`El numero ${numero} es par`) : document.write(`El numero ${numero} es impar`)
+    (numero % 2 === 0) ? document.write(`El numero ${numero} es par`) : document.write(`El numero ${numero} es impar`);
 }
-console.log(paridad(numero))
+console.log(paridad(numero));
