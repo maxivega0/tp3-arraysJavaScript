@@ -2,8 +2,8 @@
 //* luego crear una función para calcular su perímetro y mostrarlo por pantalla.
 //* ● La fórmula del perímetro es p = 2*(a +b)
 
-let altura = parseFloat(prompt("Ingrese el valor de la altura"))
-let base = parseFloat(prompt("Ingrese el valor de la base"))
+let altura = parseFloat(prompt("Ingrese el valor de la altura"));
+let base = parseFloat(prompt("Ingrese el valor de la base"));
 
 function perimetro(altura, base) {
     return (2 * (altura + base));
